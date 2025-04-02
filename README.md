@@ -67,8 +67,6 @@ Below is a suggested wiring guide for connecting the components to the ESP32:
 ## Project Structure
 
 ```
-├── .devcontainer/            # Development container configuration
-├── .vscode/                  # VS Code configuration
 ├── build/                    # Build artifacts (ignored by Git)
 ├── main/                     # Main application source code
 │   ├── CMakeLists.txt        # CMake configuration for the main component
@@ -102,7 +100,7 @@ Below is a suggested wiring guide for connecting the components to the ESP32:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Linyun-Gong/Smart_Door_Lock.git
    cd smartdoorlock
    ```
 2. Configure the ESP-IDF environment:
